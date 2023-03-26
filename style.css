@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* font-family: 'PT Sans', sans-serif; */
+/* font-family: 'PT Serif', serif; */
+
+section, div {
+    padding: 15px;
+}
+hr {
+    padding-top: 20px;
+}
+h3 { 
+    font-family: 'PT Serif', serif;
+    font-size: 18px;
+    margin: 2px;    
+}
+
+/* CLOCK */
+#clock {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: 'PT Serif', serif;
+    letter-spacing: 3px;
+}
+/* CLOCK */
+
+/* FORM */
+p, label, form {
+    font-family: 'PT Serif', serif;
+    font-size: 14px;
+    margin: 2px;
+}
+#form {
+    font-family: 'PT Serif', serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#input-field label {
+    display: inline-block;
+    width: 115px;
+    text-align: right;
+}
+.box {
+    padding: 5px;
+    margin-left: 20px;
+}
+#dropdown {
+    margin-left: 30px;
+    padding: 5px;
+}
+.hind {
+    float: right;
+}
+#calc {
+    margin-left: 25px;
+}
+input[type=submit] {
+    background-color: #008000;
+    color: #FFF;
+    border-radius: 15px;
+    border: none;
+    font-family: 'PT Serif', serif;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+/* --------------------------------------------MINU  LOOMING-------------------------------------------- */
+/* tegelikult saab muuta ülevalolevaid, kuid tõin siiski eraldi kõik muutused välja, mida soovisin teha! */
+hr {
+    padding-top: 0px;
+    margin-bottom: 0px;
+}
+#section2 {
+    width: fit-content;
+}
+#section2 div {
+    padding: 10px;
+}
+form {
+    width: fit-content;
+    margin: 25px 100px;
+}
+#input-fields div {
+    padding: 0px 0px 10px 0px;
+    display: flex;
+    flex-direction: column;
+}
+#form-checkbox {
+    display: flex;
+    flex-direction: column;
+}
+.box {
+    margin-left: 10px;
+}
+#dropdown {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 15px;
+}
+#dropdown select {
+    width: 150px;
+    height: 25px;
+}
+#radio-btn {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+}
+input[type=submit] {
+    font-size: 15px;
+    padding: 16px 16px;
+}
+#calc {
+    margin-left: 0px;
+}
+#section3 h3 {
+    padding-bottom: 15px;
+}
+/* --------------------------------------------MINU  LOOMING-------------------------------------------- */
+/* FORM */
+
+/* MAP */
+#map {
+    position: relative;
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+}
+/* -----------------------------MINU LOOMING----------------------------- */
+#map {
+    width: 80%;
+    height: 400px;
+}
+/* -----------------------------MINU LOOMING----------------------------- */
+/* MAP */
